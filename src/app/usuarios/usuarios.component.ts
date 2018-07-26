@@ -12,4 +12,11 @@ export class UsuariosComponent implements OnInit {
   ngOnInit() {
   }
 
+  texto="Compra este Producto!";
+
+  modTexto(){
+    this.texto="Producto comprado!"
+    return this.texto;
+  }
+
 }
