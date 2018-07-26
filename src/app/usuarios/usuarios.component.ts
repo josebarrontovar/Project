@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./usuarios.component.css']
 })
 export class UsuariosComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor() {  }
+  values = '';
+  onKey(value: number) {
+    alert("Se compararon: " + (this.values += value)+ " productos" );
+    
+  }
 
   ngOnInit() {
   }
