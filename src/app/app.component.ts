@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  texto="Compra este Producto!";
+
+  modTexto(){
+    this.texto="Producto comprado!"
+    return this.texto;
+    }
 }
