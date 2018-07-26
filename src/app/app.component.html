@@ -1,1 +1,16 @@
-<app-usuarios></app-usuarios>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Practica #3</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="ml-5 pl-5 collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+        <div class="ml-5 pl-5 navbar-nav text-center">
+            <a class="ml-5vnav-item nav-link" routerLink="/" routerLinkActive="active-link"><b>Home</b></a>
+            <a class="ml-5 nav-item nav-link" routerLink="/usuario" routerLinkActive="active-link"><b>Usuario</b></a>
+            <a class="ml-5 nav-item nav-link" routerLink="/usuarios" routerLinkActive="active-link"><b>Usuarios</b></a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
