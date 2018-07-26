@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsuarioComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+
+  }
+
+  values = '';
+  onKey(value: number) {
+    alert("Se compararon: " + (this.values += value)+ " productos" );
+    
+  }
 
   ngOnInit() {
   }
